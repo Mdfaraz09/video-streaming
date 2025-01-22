@@ -1,0 +1,38 @@
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    background: black;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  
+  .controls button {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .controls input[type="range"] {
+    width: 100px;
+  }
+
+  .progress-bar{
+    
+    color: red;
+    width: 800px;
+  }
